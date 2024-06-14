@@ -1,0 +1,36 @@
+@import './../node_modules/bootstrap/scss/bootstrap'; //
+// @import './customize.scss'; //
+$body-bg: #7264d6;
+$body-color: #696d77;
+$primary:#212832;
+$second:#7264d6;
+$desc: #696d76;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1600px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1170px,
+  xl: 1220px,
+  xxl: 1520px
+);
+
+
+
+$theme-colors: (
+  "primary": $primary,
+  "body-bg":$body-bg,
+  "body-color":$body-color,
+  "second":$second,
+  "desc":$desc,
+
+);
+

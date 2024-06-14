@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "b:scss": "sass styles/bootstrap.scss content/bootstrap.css",
+    "wc:scss": "npm run b:scss && sass -w styles/customize.scss content/customize.css "
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0"
+  }
+}
