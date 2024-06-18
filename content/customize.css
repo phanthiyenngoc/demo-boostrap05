@@ -84,6 +84,21 @@ body .row-1 p {
   align-items: center;
   margin: 20px 0;
 }
+@media screen and (max-width: 992px) {
+  .header .sub-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .header .header-desc {
+    text-align: justify;
+  }
+  .header .header-hero .hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+}
 
 .main {
   margin-top: 70px;
@@ -95,6 +110,13 @@ body .row-1 p {
   width: 545px;
   height: 545px;
   object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+  .main .about .about-avatar-group img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
 }
 .main .services {
   margin-top: 140px;
@@ -131,9 +153,114 @@ body .row-1 p {
 }
 .main .project .btn-ground {
   display: flex;
+  flex-wrap: wrap;
   gap: 22px;
   justify-content: center;
   align-items: center;
+}
+.main .project .btn-ground .btn-primary {
+  background-color: white;
+}
+.main .project .btn-ground .btn-primary:hover {
+  background-color: #FD6F00;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .main .testimonials {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .testimonials .h2-custom {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .testimonials .h2-custom .lead {
+    text-align: justify;
+  }
+}
+.main .testimonials .carousel-item {
+  max-width: 1087px;
+  background-color: #F8F8F8;
+  border-radius: 14px;
+}
+.main .testimonials .carousel-item .mark {
+  color: #FD6F00;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  font-style: italic;
+}
+.main .testimonials .carousel-indicators button {
+  background-color: #FD6F00;
+}
+.main .together {
+  width: 932px;
+}
+@media screen and (max-width: 992px) {
+  .main .together {
+    width: 100%;
+  }
+  .main .together .h2-custom {
+    font-size: 50px;
+    text-align: center;
+  }
+  .main .together .lead {
+    text-align: justify;
+  }
+  .main .together .input-group {
+    min-height: 52px;
+  }
+  .main .together input {
+    min-height: 52px;
+    margin-left: 12px;
+  }
+  .main .together button {
+    min-height: 52px;
+  }
+}
+.main .together p {
+  font-weight: 400;
+  line-height: 31px;
+}
+.main .together .form-control-custom {
+  max-width: 627px;
+  min-height: 75px;
+  margin-right: 12px;
+  border-radius: 14px;
+  background-color: #AFAFAF;
+}
+.main .together .form-control-custom ::placeholder {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #F8F8F8;
+  padding: 22px 26px;
+}
+.main .together button {
+  min-height: 75px;
+  border-radius: 14px;
+}
+
+.footer {
+  margin-top: 139px;
+}
+.footer .contac-footer-group {
+  padding: 26px 0;
+  background: #545454;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer .contac-footer {
+  max-width: 440px;
+}
+.footer .contac-footer p > mark {
+  color: #FD6F00;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=customize.css.map */
